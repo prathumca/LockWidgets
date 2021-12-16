@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:control">
+   </FileRef>
+   <Group
+      location = "group:Hyperion"
+      name = "Hyperion">
+      <FileRef
+         location = "group:LockWidgetsHyperionWidget.m">
+      </FileRef>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsHyperionWidget.h">
+      </FileRef>
+      <FileRef
+         location = "group:Preferences.plist">
+      </FileRef>
+      <FileRef
+         location = "group:HyperionWidgets.h">
+      </FileRef>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:liblockwidgets"
+      name = "liblockwidgets">
+      <FileRef
+         location = "group:MRYIPCCenter.m">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsView.mm">
+      </FileRef>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsConfig.h">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsView.h">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsUtils.h">
+      </FileRef>
+      <FileRef
+         location = "group:MRYIPCCenter.h">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsConfig.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Makefile">
+   </FileRef>
+   <Group
+      location = "group:Preferences"
+      name = "Preferences">
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <Group
+         location = "group:Resources"
+         name = "Resources">
+         <FileRef
+            location = "group:icon.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Root.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:LWRootListController.m">
+      </FileRef>
+      <FileRef
+         location = "group:LWSelectWidgetController.m">
+      </FileRef>
+      <FileRef
+         location = "group:entry.plist">
+      </FileRef>
+      <FileRef
+         location = "group:LWSelectWidgetController.h">
+      </FileRef>
+      <FileRef
+         location = "group:LWRootListController.h">
+      </FileRef>
+      <Group
+         location = "group:ctdprefs"
+         name = "ctdprefs">
+         <FileRef
+            location = "group:CTDPrefs.h">
+         </FileRef>
+         <FileRef
+            location = "group:CTDHeaderCell.m">
+         </FileRef>
+         <FileRef
+            location = "group:CTDPreferenceSettings.m">
+         </FileRef>
+         <FileRef
+            location = "group:CTDTableCell.m">
+         </FileRef>
+         <FileRef
+            location = "group:CTDListController.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Tweak"
+      name = "Tweak">
+      <FileRef
+         location = "group:LockWidgetsManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:Tweak.xm">
+      </FileRef>
+      <FileRef
+         location = "group:Reachability.h">
+      </FileRef>
+      <FileRef
+         location = "group:Tweak.h">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgets.plist">
+      </FileRef>
+      <FileRef
+         location = "group:LockWidgetsManager.m">
+      </FileRef>
+   </Group>
+</Workspace>

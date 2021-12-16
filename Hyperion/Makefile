@@ -1,6 +1,3 @@
-ARCHS = arm64 arm64e
-TARGET = iphone:clang:13.0:12.4
-
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = LockWidgetsHyperion
@@ -9,6 +6,12 @@ $(BUNDLE_NAME)_CFLAGS = -fobjc-arc
 $(BUNDLE_NAME)_FILES = $(wildcard *.m) $(wildcard *.mm)
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit
 $(BUNDLE_NAME)_INSTALL_PATH = /Library/Hyperion/Widgets
+
+export SYSROOT = $(THEOS)/sdks/iPhoneOS14.4.sdk
+export ARCHS = arm64 arm64e:x11 arm64e
+TARGET = iphone::8.0
+TARGET_LIPO=/usr/local/bin/plipo
+X11.THEOS_PLATFORM_SDK_ROOT=/Applications/Xcode_117.app/Contents/Developer
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
